@@ -836,7 +836,7 @@ font-size:18px;
 }
 
 .presenter-logo{
-width:min(280px,72vw);
+width:min(120px,44vw);
 }
 
 .hero-presenter{
@@ -844,7 +844,7 @@ font-size:15px;
 }
 
 .association-logo{
-width:min(140px,40vw);
+width:min(56px,24vw);
 }
 
 .hero-association span{
