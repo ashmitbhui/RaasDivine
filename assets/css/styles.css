@@ -192,6 +192,80 @@ margin-top:20px;
 display:inline-block;
 }
 
+.booking-group{
+display:inline-flex;
+align-items:stretch;
+justify-content:center;
+gap:10px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.booking-cta{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+min-height:58px;
+margin-top:0;
+}
+
+.cta-brand-link{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+min-height:90px;
+height:90px;
+padding:0;
+border-radius:20px;
+background:rgba(7,10,36,.28);
+box-shadow:inset 0 0 0 1px rgba(255,255,255,.16),0 8px 18px rgba(0,0,0,.18);
+text-decoration:none;
+overflow:hidden;
+}
+
+.cta-label{
+display:block;
+line-height:1.2;
+}
+
+.cta-brand-logo{
+width:90px;
+height:90px;
+display:block;
+border-radius:20px;
+object-fit:cover;
+}
+
+.sticky-booking{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+padding:12px 20px;
+}
+
+.sticky-booking-group{
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:1000;
+margin-top:0;
+}
+
+.sticky-brand-link{
+min-height:52px;
+height:52px;
+padding:0;
+border-radius:18px;
+background:rgba(7,10,36,.88);
+box-shadow:0 8px 20px rgba(0,0,0,.4);
+overflow:hidden;
+}
+
+.sticky-brand-logo{
+width:52px;
+height:52px;
+}
+
 .section{
 padding:80px 20px;
 text-align:center;
@@ -763,17 +837,13 @@ display:block;
 }
 
 .sticky-ticket{
-position:fixed;
-bottom:20px;
-right:20px;
 background:#ff7a18;
 color:#fff;
-padding:15px 25px;
+padding:15px 22px;
 border-radius:50px;
 font-weight:700;
 text-decoration:none;
 box-shadow:0 8px 20px rgba(0,0,0,.4);
-z-index:1000;
 }
 
 footer{
@@ -899,5 +969,25 @@ gap:18px;
 .seating-frame{
 padding:12px;
 border-radius:20px;
+}
+
+.booking-group{
+gap:8px;
+}
+
+.cta-brand-link{
+min-height:52px;
+height:52px;
+padding:0;
+}
+
+.cta-brand-logo{
+width:52px;
+height:52px;
+}
+
+.sticky-booking-group{
+right:14px;
+bottom:14px;
 }
 }
