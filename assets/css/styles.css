@@ -114,13 +114,13 @@ height:auto;
 display:block;
 }
 
-.hero-presenter{
+.hero .hero-presenter{
 margin:0;
 font-family:Cinzel,serif;
-font-size:12px;
-letter-spacing:1.6px;
+font-size:10px;
+letter-spacing:1px;
 text-transform:uppercase;
-color:#ffe3ad;
+color:rgba(255,255,255,.88);
 }
 
 .hero-association{
@@ -132,7 +132,7 @@ margin-bottom:4px;
 flex-wrap:wrap;
 }
 
-.hero-association span{
+.hero .hero-association span{
 font-family:Cinzel,serif;
 font-size:10px;
 letter-spacing:1px;
@@ -839,16 +839,16 @@ font-size:18px;
 width:min(120px,44vw);
 }
 
-.hero-presenter{
-font-size:15px;
+.hero .hero-presenter{
+font-size:10px;
 }
 
 .association-logo{
 width:min(56px,24vw);
 }
 
-.hero-association span{
-font-size:13px;
+.hero .hero-association span{
+font-size:10px;
 }
 
 .hero-tagline{
